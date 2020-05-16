@@ -87,9 +87,5 @@ public class ProductController {
         productService.deleteById(productId);
         return "redirect:/products/list";
     }
-
-
-
-
-
+    
 }
